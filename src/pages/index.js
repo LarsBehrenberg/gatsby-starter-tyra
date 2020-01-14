@@ -59,7 +59,7 @@ export const query = graphql`
     }
     cards: allMarkdownRemark(
       skip: 1,
-      limit: 3,
+      limit: 7,
       sort: {order: DESC, fields: frontmatter___date},
       filter: {frontmatter: {type: {eq: "post"}}}) {
       edges {

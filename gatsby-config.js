@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
     navbarLinks: [
-      {to: "/makeup", name: "Makeup"},
-      {to: "/lifestyle", name: "Lifestyle"},
-      {to: "/blog", name: "blog"},
+      {to: "/", name: "Travels"},
+      {to: "/travels", name: "Reviews"},
+      {to: "/visa", name: "Visa"},
     ],
-    title: "TYRA",
-    description: "Tyra is a fast, feminine, and chic Gatsby.js theme.",
+    title: "Bear&Chi",
+    description: "Mostly traveling, but currently based in Japan",
     siteUrl: "https://tyra-starter.netlify.com",
-    homepageHeader: "Welcome to Your New Blog",
-    homepageAbout: "Tyra is a modern, sleek and feminine Gatsby.js theme. Easily create a beautiful and fast blog and draw attention to your stellar content.",
+    homepageHeader: "Bear&Chi",
+    homepageAbout: "A couple from German/Japan traveling the Japan, but currently living in Kyoto and enjoying the local culture.",
     mailChimpUrl: "https://mailchimp.com",
     mailChimpToken: "MAILCHIMP TOKEN HERE",
     youtube: "", // YOUR YOUTUBE PROFILE HERE
