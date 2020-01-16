@@ -103,7 +103,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Karla', 'Playfair Display', 'Lora']
+          families: ['Noto Sans', 'Raleway', 'Montserrat']
         }
       }
     },

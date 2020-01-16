@@ -30,7 +30,7 @@ const SliderMenu = (props) => {
       }>
       <Link
         to="/"
-        className={"display ttu tracked dark-gray f3 no-underline menu__item pv5" + extraClasses}
+        className={"display dark-gray f3 no-underline menu__item pv5" + extraClasses}
       >{props.siteTitle}
       </Link>
       {props.extraLinks.map(navLink => (
@@ -93,16 +93,16 @@ export default class Navbar extends React.Component {
                 onClick={this.toggleMenu}>
                 <FiMenu />
               </button>
-              <Link to="/" className="display ttu tracked dark-gray f4 no-underline">{data.site.siteMetadata.siteTitle}</Link>
-              <Link to="/" className="sans-serif ttu mid-gray f5 no-underline dn dib-l">HOME</Link>
+              <Link to="/" className="display dark-gray f4 no-underline">{data.site.siteMetadata.siteTitle}</Link>
+              <Link to="/" className="sans-serif mid-gray f5 no-underline dn dib-l">Home</Link>
               {data.site.siteMetadata.navbarLinks.map(navLink => (
-                <MultiLink to={navLink.to} className="sans-serif ttu mid-gray f5 no-underline dn dib-l">{navLink.name}</MultiLink>
+                <MultiLink to={navLink.to} className="sans-serif mid-gray f5 no-underline dn dib-l">{navLink.name}</MultiLink>
               ))}
             </div>
             <div className="dn w-100 mw5 flex-l justify-around items-center">
-              <a href={data.site.siteMetadata.mailChimpUrl} className="sans-serif ttu light-red f5 no-underline dn dib-l">SIGN UP</a>
+              <a href={data.site.siteMetadata.mailChimpUrl} className="sans-serif light-red f5 no-underline dn dib-l">Sign up</a>
               <span className="sans-serif mid-gray dn dib-l">|</span>
-              <Link to="/about" className="sans-serif ttu mid-gray f5 no-underline dn dib-l">ABOUT</Link>
+              <Link to="/about" className="sans-serif mid-gray f5 no-underline dn dib-l">About</Link>
             </div>
           </div>
           <SliderMenu
