@@ -12,11 +12,12 @@ module.exports = {
     homepageAbout: "A couple from German/Japan traveling the Japan, but currently living in Kyoto and enjoying the local culture.",
     mailChimpUrl: "https://mailchimp.com",
     mailChimpToken: "MAILCHIMP TOKEN HERE",
+    twitter: "https://twitter.com/bearandchi", // YOUR TWITTER PROFILE HERE
     youtube: "", // YOUR YOUTUBE PROFILE HERE
-    github: "larsbehrenberg", // YOUR GITHUB PROFILE HERE 
+    github: "", // YOUR GITHUB PROFILE HERE 
     pinterest: "", // YOUR PINTEREST PROFILE HERE
     facebook: "", // YOUR FACEBOOK PROFILE HERE
-    twitter: "bearandchi", // YOUR TWITTER PROFILE HERE
+    instagram: "https://instagram.com/bearandchiii"
   },
   plugins: [
     'gatsby-plugin-sitemap',

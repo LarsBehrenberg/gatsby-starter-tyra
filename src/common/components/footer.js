@@ -5,7 +5,8 @@ import {
   FaFacebookF,
   FaTwitter,
   FaYoutube,
-  FaGithub
+  FaGithub,
+  FaInstagram
 } from 'react-icons/fa';
 import 'tachyons';
 
@@ -23,6 +24,7 @@ export default () => (
             twitter
             youtube
             github
+            instagram
           }
         }
       } 
@@ -33,7 +35,7 @@ export default () => (
           <div className="w-100 mw5 mb4">
             <span className="display f2">{data.site.siteMetadata.siteTitle}</span>
             <hr />
-              <div className="w-100 flex justify-around items-center pv2">
+              <div className="w-100 flex items-center pv2">
               {data.site.siteMetadata.facebook && (
                 <a
                   className="near-white"
@@ -73,6 +75,11 @@ export default () => (
               {data.site.siteMetadata.twitter && (
                 <a className="near-white" href={data.site.siteMetadata.twitter}>
                   <FaTwitter />
+                </a>
+              )}
+              {data.site.siteMetadata.instagram && (
+                <a className="near-white pl2" href={data.site.siteMetadata.instagram}>
+                  <FaInstagram />
                 </a>
               )}
             </div>
