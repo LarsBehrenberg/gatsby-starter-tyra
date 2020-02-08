@@ -12,11 +12,11 @@ export default ({props, data}) => (
       description={data.markdownRemark.frontmatter.title} />
     <div className="relative">
       <Img fluid={data.banner.childImageSharp.fluid} />
-      <h1
+      {/* <h1
         className="fw1 tc f2 display absolute dn dib-ns"
-        style={{bottom: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>About {data.site.siteMetadata.title}</h1>
+        style={{bottom: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>About {data.site.siteMetadata.title}</h1> */}
     </div>
-    <div className="mw9 center flex flex-wrap pv5-l w-100">
+    <div className="flex flex-wrap center mw9 justify-around pv5-l w-100">
       <div className="mw7 w-100 pa2">
         <h1 className="display fw1 db lh-copy">{data.markdownRemark.frontmatter.title}</h1>
         <Link to="/blog" className="dib bg-dark-gray b near-white hover-bg-mid-gray pv3 ph4 ttu tracked sans-serif no-underline mv2">Read the blog</Link>

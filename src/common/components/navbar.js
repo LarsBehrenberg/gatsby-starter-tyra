@@ -26,7 +26,7 @@ const SliderMenu = (props) => {
   return (
     <div
       className={
-        "flex flex-column justify-center items-center bg-washed-red fixed top z-max w-100 ease" + (props.active ? " vh-93" : " h0")
+        "flex flex-column justify-center items-center bg-white fixed top z-max w-100 ease" + (props.active ? " vh-93" : " h0")
       }>
       <Link
         to="/"

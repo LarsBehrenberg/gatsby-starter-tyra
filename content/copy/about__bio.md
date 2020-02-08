@@ -2,10 +2,12 @@
 
 type: "copy"
 name: "about__bio"
-title: "Tyra is a fast, feminine, and chic Gatsby.js Starter. Kickstart your online presence, powered by React."
+title: "Thanks for stopping by to find out more about us! We’re Lars & Chi, a couple from Germany/Japan who have been travelling for the past 4 years."
 
 ---
 
-Built on a strong foundation of React and Gatsby, Tyra is a modern, sleek, and _fast_ template for a blog. Created with an emphasis on SEO and the goal of showcasing content, Tyra is the perfect starter for creating your new project.
+We want to share our experiences and knowledge with you that we have accumulated over the years about visa, traveling, insurances or just how to live overseas! We met in New Zealand and now live a travel life together moving back and forth between Asia and Europe.
 
-Tyra is MIT Licensed, and so works well as a starting point, a springboard, or even a finished product.
+We love experiencing different cultures and with this blog give you an idea of what it's like to live an intercultural traveling life!
+
+Check out our most recent blog posts [here](/blog)!

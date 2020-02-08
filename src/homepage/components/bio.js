@@ -1,5 +1,5 @@
 import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
+import { Link, StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import 'tachyons'
 
@@ -30,6 +30,7 @@ export default () => (
           <div class="w-100 pa2 mw6 mv4">
             <span className="db f2 display dark-gray">{data.copy.frontmatter.title}</span>
             <div className="lh-copy f5 serif mt4" dangerouslySetInnerHTML={{__html: data.copy.html}} />
+            <Link to="/about" className="mt3 dib no-underline ph5 pv3 sans-serif near-white bg-dark-gray ttu tracked b grow">About us</Link>
           </div>
         </React.Fragment>
     )} />

@@ -12,7 +12,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <Seo
-        title={"Home Page"}
+        title={"A Travel Life"}
         description={data.site.siteMetadata.description} />
       <Hero
         title={post.frontmatter.title}
@@ -28,7 +28,7 @@ export default ({ data }) => {
             description={node.frontmatter.description} />
         ))}
       </div>
-      <About />
+      {/* <About /> */}
       <Bio />
     </Layout>
   )

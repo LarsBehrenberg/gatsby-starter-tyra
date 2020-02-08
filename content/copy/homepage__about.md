@@ -2,10 +2,10 @@
 
 type: "copy"
 name: "homepage__bio"
-title: "Showcase Your Personality."
+title: "Bear&Chi - Who are we?"
 
 ---
 
-Your incredible content deserves an incredible home. Tyra leverages your brilliant blog posts, builds rich SEO data, and makes publishing easy! Fast, dynamic websites are here, powered by Gatsby.js and React.
+We want to share our experiences and knowledge with you that we have accumulated over the years about visa, traveling, insurances or just how to live overseas! We met in New Zealand and now live a travel life together moving back and forth between Asia and Europe.
 
-This section of the site would be great to feature an author's biography, or maybe a bit about what makes your business special! It's featured towards the end of the homepage, after other descriptive sections.
+We love experiencing different cultures and with this blog give you an idea of what it's like to live an intercultural traveling life!

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     navbarLinks: [
-      {to: "/", name: "Travels"},
-      {to: "/travels", name: "Reviews"},
+      {to: "/blog", name: "Travels"},
+      {to: "/blog", name: "Reviews"},
       {to: "/visa", name: "Visa"},
     ],
     title: "Bear&Chi",
@@ -13,10 +13,10 @@ module.exports = {
     mailChimpUrl: "https://mailchimp.com",
     mailChimpToken: "MAILCHIMP TOKEN HERE",
     youtube: "", // YOUR YOUTUBE PROFILE HERE
-    github: "", // YOUR GITHUB PROFILE HERE 
+    github: "larsbehrenberg", // YOUR GITHUB PROFILE HERE 
     pinterest: "", // YOUR PINTEREST PROFILE HERE
     facebook: "", // YOUR FACEBOOK PROFILE HERE
-    twitter: "", // YOUR TWITTER PROFILE HERE
+    twitter: "bearandchi", // YOUR TWITTER PROFILE HERE
   },
   plugins: [
     'gatsby-plugin-sitemap',
