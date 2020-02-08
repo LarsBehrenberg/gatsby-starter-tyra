@@ -6,14 +6,14 @@ author: "Bearandchi"
 category: "visa"
 date: "2020-01-15"
 slug: "/how-to-get-a-spouse-visa-in-japan"
-postImage: "./img/japan-panorama.jpg"
-metaDescription: "We went through the process of getting a spouse visa in Japan. Here is what we learned."
+postImage: "./img/marriage-japan.jpg"
+metaDescription: "We went through the process of applying for a spouse visa in Japan. It took us months and really was a challenge. Here is how it turned out for us and what we think you should be looking out for!"
 
 ---
 
 # How to get a spouse visa in Japan
 
-### Step by Step Process:
+### The Step by Step Guide:
 Create List of all needed documents (see below)
 Get a translated version of the Japanese partner’s Koseki Touhon with Apostille
 Get a birth certificate from your country (in our case Germany, my family got it and sent it over)
