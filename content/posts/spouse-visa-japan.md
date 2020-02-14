@@ -11,25 +11,20 @@ metaDescription: "We went through the process of applying for a spouse visa in J
 
 ---
 
-# How to get a spouse visa in Japan
-
-### The Step by Step Guide:
-Create List of all needed documents (see below)
-Get a translated version of the Japanese partner’s Koseki Touhon with Apostille
-Get a birth certificate from your country (in our case Germany, my family got it and sent it over)
-Apply at the (German) consulate for the (German) marriage certificate with the obtained (German) birth certificate and the translated Koseki Touhon
-Gather tax documents from either partner who is employed (as well as bank statements)
-Copies of passports & a foreign partner’s residence card (approval of residential address)
-Get a new Koseki Touhon that is within 3 month of application filing
-Fill out the application form (8 pages) with 3 photos of the couple
-Submit the folder to the immigration with all documents 
-
-
-
-**Disclaimer:** The spouse visa is really a case by case process, but we just recently went through it and here is what we learnt. 
+> **Disclaimer:** The spouse visa is really a case by case process, but we just recently went through it and here is what we learnt. 
 
 
 We got married in October 2019 (which was quite the undertaking on its own) and then set our eyes on gathering the documents in order to apply for the visa. We felt like we had a lot of leeway, because my visa was only going to expire in May 2020. But as usual in the end it all had to happen rather quickly. Our situation was a little different, because I already had a visa in Japan and we got married in Japan, so this made things a lot easier we thought. 
+
+**What are the steps?:**
+1. Get a translated version of the Japanese partner’s Koseki Touhon with Apostille
+2. Get a birth certificate from your country (in our case Germany, my family got it and sent it over)
+3. Apply at the (German) consulate for the (German) marriage certificate with the obtained (German) birth certificate and the translated Koseki Touhon
+4. Gather tax documents from either partner who is employed (as well as bank statements)
+5. Copies of passports & a foreign partner’s residence card (approval of residential address)
+6. Get a new Koseki Touhon that is within 3 month of application filing
+7. Fill out the application form (8 pages) with 3 photos of the couple
+8. Submit the folder to the immigration with all documents 
 
 First off, we researched tons and came up with a list of all documents needed in order to apply for the spouse visa, having in mind the spouse visa application process would only take up to about 4-8 weeks.
 
