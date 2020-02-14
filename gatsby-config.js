@@ -7,7 +7,7 @@ module.exports = {
     ],
     title: "Bear&Chi",
     description: "Mostly traveling, but currently based in Japan",
-    siteUrl: "https://tyra-starter.netlify.com",
+    siteUrl: "https://bearandchi.netlify.com",
     homepageHeader: "Bear&Chi",
     homepageAbout: "A couple from German/Japan traveling the Japan, but currently living in Kyoto and enjoying the local culture.",
     mailChimpUrl: "https://mailchimp.com",
