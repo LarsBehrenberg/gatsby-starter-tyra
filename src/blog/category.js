@@ -16,9 +16,9 @@ export default class BlogIndex extends React.Component {
       <Layout>
         <Seo
           title={`Posts Tagged ${category} - Page ${this.props.pageContext.pageNumber}`} />
-        <div className="pv5 flex items-center justify-center bg-gray">
-          <h1 className="fw1 tc f2 display white">Posts Tagged {category}</h1>
-        </div>
+        {/* <div className="pv5 flex items-center justify-center bg-gray">
+          <h1 className="fw1 tc f2 display white ttc">Posts Tagged: {category}</h1>
+        </div> */}
         <div className="mw9 center">
           <Breadcrumbs
             lastName={category}
