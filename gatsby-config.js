@@ -118,6 +118,12 @@ module.exports = {
         exclude: ['/success'],
         cookieDomain: "bearandchi.netlify.com",
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-2914010296721637`
+      },
     }
   ]
 }
