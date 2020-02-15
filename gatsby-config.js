@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     navbarLinks: [
       {to: "/blog", name: "Travels"},
-      {to: "/blog", name: "Reviews"},
+      {to: "/review", name: "Reviews"},
       {to: "/visa", name: "Visa"},
     ],
     title: "Bear&Chi",
