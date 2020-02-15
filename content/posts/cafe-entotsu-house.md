@@ -11,12 +11,12 @@ metaDescription: "For this Coffee-Sunday we have been to Café Entotsu which is 
 
 ---
 
-## Rating:
-Coffee: ⭐️⭐️⭐️⭐️⭐️<br/>
-Atmosphere: ⭐️⭐️⭐️⭐️<br/>
-Staff: ⭐️⭐️⭐️<br/>
-Money value: ⭐️⭐️⭐️<br/>
-Menu: ⭐️⭐️⭐️⭐️
+## Our Rating:
+*Coffee:* ⭐️⭐️⭐️⭐️⭐️<br/>
+*Atmosphere:* ⭐️⭐️⭐️⭐️<br/>
+*Staff:* ⭐️⭐️⭐️<br/>
+*Money value:* ⭐️⭐️⭐️<br/>
+*Menu:* ⭐️⭐️⭐️⭐️
 
 ---
 
@@ -29,7 +29,15 @@ Another inconvenience was that inside the café you aren't really allowed to tak
 
 ---
 
-## Photos:
+## Address:
+ヱントツコーヒー舎 (Café Entotsu House)<br/>
+〒602-8314 京都府京都市上京区佐竹町110-2<br/>
+110-2 Satakecho, Kamigyo Ward, Kyoto, 602-8314<br/>
+[https://goo.gl/maps/CdZhzsz3inwuQukV7](https://goo.gl/maps/CdZhzsz3inwuQukV7)
+
+---
+
+## Our Photos:
 
 ![./img/cafe-entotsu-house/9CE8A7EF-6B57-4261-9A40-DB758EC94E50.jpeg](./img/cafe-entotsu-house/9CE8A7EF-6B57-4261-9A40-DB758EC94E50.jpeg)
 
@@ -48,13 +56,3 @@ Another inconvenience was that inside the café you aren't really allowed to tak
 ![./img/cafe-entotsu-house/709BB29B-B2D4-4364-BB23-CD50A32B61E1.jpeg](./img/cafe-entotsu-house/709BB29B-B2D4-4364-BB23-CD50A32B61E1.jpeg)
 
 ![./img/cafe-entotsu-house/7E660149-69D1-40BA-BFC7-F6296EF8AFFD.jpeg](./img/cafe-entotsu-house/7E660149-69D1-40BA-BFC7-F6296EF8AFFD.jpeg)
-
----
-
-## Address:
-
-〒602-8314 京都府京都市上京区佐竹町110-2
-
-110-2 Satakecho, Kamigyo Ward, Kyoto, 602-8314
-
-[https://goo.gl/maps/CdZhzsz3inwuQukV7](https://goo.gl/maps/CdZhzsz3inwuQukV7)
