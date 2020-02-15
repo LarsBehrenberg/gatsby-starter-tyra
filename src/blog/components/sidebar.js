@@ -1,7 +1,8 @@
 import React from 'react';
 import {
   FaPinterestP,
-  FaFacebookF
+  FaFacebookF,
+  FaTwitter
 } from 'react-icons/fa';
 import {FiMail} from 'react-icons/fi'
 import { StaticQuery, graphql } from 'gatsby';
@@ -31,13 +32,19 @@ export default (props) => {
           <div className="w3 bg-dark-gray flex flex-wrap" style={{position: "sticky", top: "4rem"}}>
             <a
               href={`https://pinterest.com/pin/create/button/?url=${base + location}&description=${desc}&media=${base + img}`}
+              target="_blank"
               className="w-100 h3 flex items-center justify-center b near-white"><FaPinterestP /></a>
             <a
               href={`https://www.facebook.com/sharer/sharer.php?u=${base + location}`}
+              target="_blank"
               className="w-100 h3 flex items-center justify-center b near-white"><FaFacebookF /></a>
             <a
               href={`mailto:?&body=${base + location}`}
               className="w-100 h3 flex items-center justify-center b near-white"><FiMail /></a>
+            <a 
+              className="w-100 h3 flex items-center justify-center b near-white"
+              target="_blank"
+              href={`http://twitter.com/share?text=${desc}&url=${base + location}&hashtags=bearandchi`}><FaTwitter /></a>
           </div>
         </div>
     )}} />
