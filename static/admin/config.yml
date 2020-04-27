@@ -16,6 +16,7 @@ collections:
     create: true
     fields:
       - { name: slug, label: Slug }
+      - { name: "type", label: "Type", widget: "hidden", default: "post"}
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: author, label: Author }

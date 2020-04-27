@@ -1,4 +1,5 @@
 ---
+type: "post"
 slug: Another new blog posst
 date: 2020-04-27T05:10:26.112Z
 title: Newww
