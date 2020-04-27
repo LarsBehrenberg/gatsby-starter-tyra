@@ -4,7 +4,7 @@ type: post
 date: 2020-04-27T05:21:11.702Z
 title: Goodman Roaster Kyoto
 author: Chi
-postImage: img/goodman-roaster.jpg
+postImage: img/almond-flat-white.jpg
 metaDescription: Goodman Roaster Kyotoroasts their own coffee beans as the name
   of the café tells us. When you walk pass the café, the awesome smell of the
   coffee invites you to the inside. The layout the café is pretty cool ...
