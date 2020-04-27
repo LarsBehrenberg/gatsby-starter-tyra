@@ -5,11 +5,11 @@ module.exports = {
       {to: "/review", name: "Reviews"},
       {to: "/visa", name: "Visa"},
     ],
-    title: "Bear&Chi",
-    description: "Mostly traveling, but currently based in Japan",
+    title: "Bear & a Girl",
+    description: "A couple from German/Japan traveling Japan & the world. Currently living in Kyoto and enjoying the local culture.",
     siteUrl: "https://bearandchi.netlify.com",
-    homepageHeader: "Bear&Chi",
-    homepageAbout: "A couple from German/Japan traveling the Japan, but currently living in Kyoto and enjoying the local culture.",
+    homepageHeader: "Bear & a Girl",
+    homepageAbout: "A couple from German/Japan traveling Japan & the world. Currently living in Kyoto and enjoying the local culture.",
     mailChimpUrl: "https://mailchimp.com",
     mailChimpToken: "MAILCHIMP TOKEN HERE",
     twitter: "https://twitter.com/bearandchi", // YOUR TWITTER PROFILE HERE
@@ -124,6 +124,7 @@ module.exports = {
       options: {
         publisherId: `ca-pub-2914010296721637`
       },
-    }
+    },
+    'gatsby-plugin-netlify-cms'
   ]
 }

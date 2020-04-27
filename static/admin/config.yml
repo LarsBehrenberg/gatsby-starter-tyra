@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  branch: master
+  commit_messages:
+    create: 'Create {{collection}} “{{path}}”'
+    update: 'Update {{collection}} “{{path}}”'
+    delete: 'Delete {{collection}} “{{path}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+media_folder: content/posts/img
+public_folder: /content/posts
+collections:
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: slug, label: Slug }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: author, label: Author }
+      - { name: postImage, label: "Cover Image", widget: image, required: true }
+      - { name: metaDescription, label: "Small Description", widget: text }
+      - { name: category, label: Category }
+      - { name: body, label: Body, widget: markdown }
