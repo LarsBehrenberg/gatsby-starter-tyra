@@ -1,16 +1,17 @@
 ---
-slug: review
+slug: /goodman-roaster-kyoto
 type: post
 date: 2020-05-01T01:00:00.000Z
 title: タイム堂cafe & shop
 author: Chi
-postImage: img/goodman-roaster.jpg
-metaDescription: "Café Timedou and gallery (upstairs) are located by the
+postImage: ./img/goodman-roaster.jpg
+metaDescription: 'Café Timedou and gallery (upstairs) are located by the
   Imperial Palace. The cafe is nice and peaceful although it is right by
-  Karasuma subway station. "
+  Karasuma subway station. '
 category: Cafe Review
 ---
-タイム堂cafe & shop
+
+タイム堂 cafe & shop
 
 **Our Rating:**
 
@@ -20,7 +21,7 @@ category: Cafe Review
 *Money value:*⭐️⭐️⭐️⭐️\
 *Menu:*⭐️⭐️⭐️⭐️
 
-- - -
+---
 
 **Our Comment:**
 
@@ -28,8 +29,8 @@ Café Timedou is nice and peaceful although it is right by Karasuma subway stati
 The staff is amazingly welcoming at the cafe. When we were about to leave the cafe, it started raining heavily and they let us sit down and wait for the rain to stop. They were all very relaxed and we felt comfortable chilling inside. We hope you feel comfortable, too when you go there. \
 The café has a mixture of wester and Japanese style food/drink menu. For example, there were a lot of macha sweets and drinks but also ice cream and other cakes. We tried some sweets and we liked the macha flavour a lot so we ordered another one. If you are looking for a café to relax and chat with friends without noise around Karasuma area, we highly recommend Timedou café.
 
-- - -
+---
 
 https://timedou.com
 
-〒602-8023京都府京都市上京区春日町426番地2タイム堂ビル
+〒 602-8023 京都府京都市上京区春日町 426 番地 2 タイム堂ビル

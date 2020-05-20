@@ -1,28 +1,27 @@
 module.exports = {
   siteMetadata: {
-    navbarLinks: [
-      {to: "/blog", name: "Travels"},
-      {to: "/review", name: "Reviews"},
-      {to: "/visa", name: "Visa"},
-    ],
-    title: "Bear & a Girl",
-    description: "A couple from German/Japan traveling Japan & the world. Currently living in Kyoto and enjoying the local culture.",
-    siteUrl: "https://bearandchi.netlify.com",
-    homepageHeader: "Bear & a Girl",
-    homepageAbout: "A couple from German/Japan traveling Japan & the world. Currently living in Kyoto and enjoying the local culture.",
-    mailChimpUrl: "https://mailchimp.com",
-    mailChimpToken: "MAILCHIMP TOKEN HERE",
-    twitter: "https://twitter.com/bearandchi", // YOUR TWITTER PROFILE HERE
-    youtube: "", // YOUR YOUTUBE PROFILE HERE
-    github: "", // YOUR GITHUB PROFILE HERE 
-    pinterest: "", // YOUR PINTEREST PROFILE HERE
-    facebook: "", // YOUR FACEBOOK PROFILE HERE
-    instagram: "https://instagram.com/bearandchiii"
+    navbarLinks: [{ to: '/blog', name: 'Blog' }],
+    title: 'Bear & a Girl',
+    description:
+      'A couple from German/Japan traveling Japan & the world. Currently living in Kyoto and enjoying the local culture.',
+    siteUrl: 'https://bearandchi.netlify.com',
+    homepageHeader: 'Bear & a Girl',
+    homepageAbout:
+      'A couple from German/Japan traveling Japan & the world. Currently living in Kyoto and enjoying the local culture.',
+    mailChimpUrl: 'https://mailchimp.com',
+    mailChimpToken: 'MAILCHIMP TOKEN HERE',
+    twitter: 'https://twitter.com/bearandchi', // YOUR TWITTER PROFILE HERE
+    youtube: '', // YOUR YOUTUBE PROFILE HERE
+    github: '', // YOUR GITHUB PROFILE HERE
+    pinterest: '', // YOUR PINTEREST PROFILE HERE
+    facebook: '', // YOUR FACEBOOK PROFILE HERE
+    instagram: 'https://instagram.com/bearandchiii',
   },
   plugins: [
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-emotion',
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-feed',
@@ -48,7 +47,7 @@ module.exports = {
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.frontmatter.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.frontmatter.slug,
-                  custom_elements: [{ "content:encoded": edge.node.html }],
+                  custom_elements: [{ 'content:encoded': edge.node.html }],
                 })
               })
             },
@@ -73,8 +72,8 @@ module.exports = {
               }
             }
           `,
-            output: "/rss.xml",
-            title: "Gatsby RSS Feed",
+            output: '/rss.xml',
+            title: 'Gatsby RSS Feed',
           },
         ],
       },
@@ -99,33 +98,33 @@ module.exports = {
             },
           },
         ],
-      }
+      },
     },
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Noto Sans', 'Raleway', 'Montserrat']
-        }
-      }
+          families: ['Noto Sans', 'Raleway', 'Montserrat'],
+        },
+      },
     },
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: "UA-158085534-1",
+        trackingId: 'UA-158085534-1',
         head: false,
         anonymize: true,
         respectDNT: true,
         exclude: ['/success'],
-        cookieDomain: "bearandchi.netlify.com",
-      }
+        cookieDomain: 'bearandchi.netlify.com',
+      },
     },
     {
       resolve: `gatsby-plugin-google-adsense`,
       options: {
-        publisherId: `ca-pub-2914010296721637`
+        publisherId: `ca-pub-2914010296721637`,
       },
     },
-    'gatsby-plugin-netlify-cms'
-  ]
+    'gatsby-plugin-netlify-cms',
+  ],
 }

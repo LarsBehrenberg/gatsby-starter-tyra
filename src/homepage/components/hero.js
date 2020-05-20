@@ -1,20 +1,37 @@
-import React from "react"
-import Img from 'gatsby-image';
-import { Link } from 'gatsby';
+import React from 'react'
+import Img from 'gatsby-image'
 import '../../common/styles/custom.tachyons.css'
-import 'tachyons';
+import 'tachyons'
+import { graphql, useStaticQuery } from 'gatsby'
 
-export default (props) => (
-  <React.Fragment>
-    <Img
-      className="w-100 vh-50 mw9 center"
-      fluid={props.image}
-      alt={props.description} />
-    <div
-      className="h-auto bg-near-white mw9 w-100 flex flex-column items-center justify-center pv5 ph2 center">
-      <span className="fw1 display dark-gray db tc w-100 mw7 f3 f2-ns">{props.title}</span>
-      <p className="serif mw6 tc f5 dn dib-l mb4 db">{props.description}</p>
-      <Link className="db pv3 ph5 tracked ttu b bg-dark-gray dark-gray sans-serif no-underline grow white" to={props.to}>Read More</Link>
+export default props => {
+  const data = useStaticQuery(graphql`
+    query {
+      banner: file(relativePath: { eq: "img/blog-cover.jpg" }) {
+        childImageSharp {
+          fluid(maxHeight: 720, maxWidth: 1920, quality: 90) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
+  return (
+    <div>
+      <Img
+        className="w-100 vh-93 center mb2"
+        fluid={data.banner.childImageSharp.fluid}
+      />
+      <div
+        style={{
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%)',
+        }}
+      >
+        <h1 className="white w-9">BearandGirl - A blog about life</h1>
+      </div>
     </div>
-  </React.Fragment>
-)
+  )
+}

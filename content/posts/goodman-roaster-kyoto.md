@@ -4,12 +4,13 @@ type: post
 date: 2020-04-27T05:21:11.702Z
 title: Goodman Roaster Kyoto
 author: Chi
-postImage: img/almond-flat-white.jpg
+postImage: ./img/almond-flat-white.jpg
 metaDescription: Goodman Roaster Kyotoroasts their own coffee beans as the name
   of the café tells us. When you walk pass the café, the awesome smell of the
   coffee invites you to the inside. The layout the café is pretty cool ...
 category: Review
 ---
+
 **Our Rating:**
 
 *Coffee:*⭐️⭐️⭐️⭐️⭐️\
@@ -19,7 +20,7 @@ category: Review
 *Money value:*⭐️⭐️⭐️⭐️\
 *Menu:*⭐️⭐️⭐️⭐️
 
-- - -
+---
 
 **Our Comment:**
 
@@ -27,4 +28,4 @@ Goodman Roaster Kyotoroasts their own coffee beans as the name of the café tell
 
 [https://goodman-company.com](https://goodman-company.com/)
 
-〒600-8442京都府京都市下京区矢田町１１５−２ベアフルートイイノ一階
+〒 600-8442 京都府京都市下京区矢田町１１５ − ２ベアフルートイイノ一階

@@ -1,16 +1,17 @@
 ---
-slug: review
+slug: /cafe-bibliotic-hello
 type: post
 date: 2020-05-02T01:00:00.000Z
 title: Café Bibliotic Hello!
 author: Chi
-postImage: img/goodman-roaster.jpg
-metaDescription: "Café Bibliotic Hello! is one of the most well-known and
+postImage: ./img/goodman-roaster.jpg
+metaDescription: 'Café Bibliotic Hello! is one of the most well-known and
   popular cafes among foreign tourists as well as Kyoto locals. It is designed
   to look like a library next to a bakery. You may find an interesting book that
-  you want to read while enjoying your coffee and a croissant there. "
+  you want to read while enjoying your coffee and a croissant there. '
 category: Cafe Review
 ---
+
 # **Café Bibliotic Hello!**
 
 **Our Rating:**
@@ -27,4 +28,4 @@ category: Cafe Review
 
 https://cafe-hello.jp
 
-〒604-0951京都府京都市中京区晴明町６５０
+〒 604-0951 京都府京都市中京区晴明町６５０
